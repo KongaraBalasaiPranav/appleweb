@@ -110,22 +110,22 @@ section.hero .content p {
     flex-wrap: wrap;
     gap: 20px;
     justify-content: center;
-    padding: 60px 20px;
+    padding: 10px 10px;
 }
 
 .card {
     background-color: #fff;
     flex: 1 1 300px;
-    max-width: 500px;
+    background-color:whitesmoke;
     border-radius: 12px;
-    overflow: hidden;
     text-align: center;
-    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.1);
 }
 
 .card img {
     width: 80%;
     height: auto;
+    padding: 10px 0 0 0;
 }
 
 .card-content h2 {
@@ -157,23 +157,25 @@ section.hero .content p {
     margin: 20px;
     color: #1d1d1f;
     text-align: justify;
-    padding: 0 0 0 10%;
+    padding: 0 10% 0 10%;
+    margin-top: 0%;
+
 
 }
-
 .footer-title {
     color: #1d1d1f;
     font-weight: 600;
     margin-bottom: 15px;
 }
-
 .footer-links a {
     display: block;
     margin-bottom: 8px;
     color: #515154;
     text-decoration: none;
 }
-
+.footer-paragraph p{
+    margin: 10px;
+}
 .footer-legal {
     border-top: 1px solid #d2d2d7;
     padding-top: 20px;
